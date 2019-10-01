@@ -1,0 +1,35 @@
+html {
+  background-color: rgb(244, 199, 173);
+  color: rgb(50, 50, 50);
+  font-size: 14px;
+  font-family: 'Poiret One', cursive;
+  //font-family: 'Marck Script', cursive;
+  //font-family: 'La Belle Aurore', cursive;
+}
+
+.display-none {
+  display: none;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+  background-color: rgb(244, 199, 173);
+}
+
+.box {
+  padding: 20px 20px;
+  width: 60%;
+  height: 80vh;
+  border: 1.5px solid rgb(80, 80, 80);
+  border-radius: 3px;
+  box-shadow: 2px -2px 2px rgb(80, 80, 80);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
