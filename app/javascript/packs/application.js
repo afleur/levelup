@@ -15,7 +15,24 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-console.log('Hello team Koudetat')
 
-import { start_click } from '../plugins/start'
+import { start_click } from '../plugins/start';
 start_click();
+
+import { nursery_qst } from '../plugins/nursery';
+nursery_qst();
+
+import { next_click } from '../plugins/next';
+next_click();
+
+import { company_qst } from '../plugins/company';
+company_qst();
+
+import { true_click } from '../plugins/true';
+true_click();
+
+import { idea_click } from '../plugins/idea';
+idea_click();
+
+import { help_click } from '../plugins/help';
+help_click();

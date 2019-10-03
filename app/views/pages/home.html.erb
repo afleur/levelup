@@ -10,13 +10,15 @@
       <img src="https://media.giphy.com/media/d30yCBUXEvgosTjAvY/giphy.gif" alt="" style="width:50%" class="mb-3">
       <p>Maintenant que vous êtes là, vous me laissez pitcher rapidement mon projet?</p>
 
-      <button class="btn btn-secondary" id="start-btn"> LET'S GO </button>
+      <button class="btn btn-secondary" id="start-btn"> 🚀 LET'S GO 🚀 </button>
     </div>
 
     <div id="slidetwo" class="display-none">
 
-      <p>Cool !</p>
-      <p>Alors, pour commencer, j'ai deux questions pour vous.</p>
+      <div id="thanks">
+        <p>Cool, merci ! </p>
+        <p>Alors, pour commencer, j'ai deux questions pour vous.</p>
+      </div>
 
       <div class="mb-3" style="font-size: larger ;" ><b><u>Première question:</u></b></div>
 
@@ -24,61 +26,69 @@
 
       <button id="yes-btn" class="btn btn-secondary mb-3 mr-3">Oui 👍</button><button class="btn btn-secondary mb-3" id="no-btn" >Non 👎</button>
 
-      <div> </div>
+
       <p class="display-none" id="yes-ans">Dans ce cas, vous connaissez déjà la réponse des établissements: </p>
 
-      <p id="no-ans">Ne vous donnez pas cette peine. Voici la réponse qu'on vous donnera : </p>
-      <img src="https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif" alt="" style="width:50%" class="mb-3">
-      <br>
-      <button id="next" class="btn btn-outline-secondary btn-sm">⇢ NEXT ⇢</button>
-
+      <p id="no-ans" class="display-none">Ne vous donnez pas cette peine. Voici la réponse qu'on vous donnera : </p>
+      <div id="no-nursery" class="display-none">
+        <img src="https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif" alt="" style="width:50%" class="mb-4">
+        <br>
+        <button id="next-btn" class="btn btn-outline-secondary btn-sm">⇢ NEXT ⇢</button>
+      </div>
     </div>
 
     <div id="slidethree" class="display-none">
+
       <div class="mb-3" style="font-size: larger ;"><b><u>Deuxième question:</u></b></div>
+
       <p><em>Avez-vous déjà essayé de lancer une boite avec un bébé à la maison ?</em></p>
-      <button id="yes-button" class="btn btn-secondary mb-3 mr-3">Oui 👍</button><button class="btn btn-secondary mb-3" id="no-button" >Non 👎</button>
+
+      <button id="yes-button" class="btn btn-secondary mb-3 mr-3">Oui 👍</button>
+      <button class="btn btn-secondary mb-3" id="no-button" >Non 👎</button>
+
       <p id="no-answer" class="display-none">Moi oui. Elle n'a jamais vu le jour.</p>
-      <p id="yes-answer">Wow et alors? Parce que moi, j'ai bien essayé mais elle n'a jamais vu le jour.</p>
+      <p id="yes-answer" class="display-none">Wow et alors? Parce que moi, j'ai bien essayé mais elle n'a jamais vu le jour.</p>
 
-      <img src="https://media.giphy.com/media/l0ExgO5m0tcnfUKyY/giphy.gif" alt="" style="width:50%" class="mb-3">
-      <br>
-      <p >Et oui... Cela arrive même aux meilleurs.</p>
+      <div id="no-company" class="display-none">
+        <img src="https://media.giphy.com/media/l0ExgO5m0tcnfUKyY/giphy.gif" alt="" style="width:50%" class="mb-3">
+        <br>
+        <p >Et oui... Cela arrive même aux meilleurs.</p>
 
-      <button class="btn btn-outline-secondary mt-3"> ⇢ C'est vrai ⇢</button>
+        <button class="btn btn-outline-secondary mt-3" id="true-btn"> ⇢ C'est vrai ⇢</button>
+      </div>
     </div>
 
     <div id="slidefour" class="display-none">
 
-      <p>Pour les entrepreneur.e.s, freelances, indépendant.e.s en général, il y a un vrai problème d'accessibilité aux modes de garde traditionnels.</p>
+      <p>Pour les entrepreneur.e.s, freelances, indépendant.e.s en général, il y a un vrai problème d'accessibilité aux modes de garde traditionnels. Et sans même aller dans la niche des non salariés, un seul "chiffre marché" suffit pour traduire le problème de garde d'enfants en France:</p>
 
-      <p>Et sans même aller dans la niche des non salariés, un seul chiffre "marché" suffit pour traduire le problème de garde d'enfants:</p>
-
-      <p><b> UNE FAMILLE SUR DEUX N'OBTIENT PAS DE PLACE EN CRECHE*</b></p>
+      <p><b> UNE FAMILLE SUR DEUX N'OBTIENT PAS DE PLACE EN CRECHE</b></p>
 
       <img src="https://media.giphy.com/media/ph6ewybUlGbW8/giphy.gif" alt="" style="width:40%" class="mb-3">
 
       <p>Oui, je sais. Choquant.</p>
 
-      <button class="btn btn-secondary mt-3"> 🌈 Ma proposition 🌈 ⇢</button>
+      <button class="btn btn-secondary mt-3" id="idea-btn"> 🌈 Ma proposition 🌈 ⇢</button>
     </div>
 
     <div id="slidefive" class="display-none">
       <p>Vous voulez breaker le game de l'éducation ?
       Moi je veux casser le game de celui de la garde d'enfants.</p>
 
-      <p>Mon rêve, ma vision:
-      Des crèches</p>
+      <p> ⇣ Ma vision pour la crèche de demain ⇣ </p>
 
-      <div> 🔆 <b>ultra flexibles 🔆</b></div>
-      <div> 📱 <b>digitales 📱</b></div>
-      <div> 🌈 <b>sans conditions d'activité 🌈</b></div>
-      <div> 🙏<b>accessibles 🙏</b></div>
+      <div class="mb-2"> 🔆 <b>ultra flexibles 🔆</b></div>
+      <div class="mb-2"> 📱 <b>digitales 📱</b></div>
+      <div class="mb-2"> 🌈 <b>sans conditions d'activité 🌈</b></div>
+      <div class="mb-2"> 🙏<b>accessibles 🙏</b></div>
 
-      <p>Alors oui, y'a du boulot. C'est très réglementé, c'est sensible car on parle de bébés. Ca ne rentre probablement pas dans votre cadre. Mais c'est une vraie question de société et je suis sûre que mon aventure peut se gamifier.
+      <p class="mt-3">Alors oui, y'a du boulot. Secteur réglementé et ultra sensible car on parle de 👶.
+      <p>Ca ne rentre probablement pas dans votre cadre. Mais c'est une vraie question de société et je suis sûre que mon aventure peut se gamifier.</p>
       <p>Alors vous m'aidez?</p>
 
-      <button class="btn btn-secondary mt-3" id="help-me">✨✨ YES MAMA ✨✨</button>
+      <button class="btn btn-secondary mt-2 mb-4" id="help-btn">✨✨ YES MAMA ✨✨</button>
+
+      <p>Vos soeurs, copines & mamans seraient tellement fières de vous.</p>
 
     </div>
 
