@@ -1,8 +1,9 @@
 html {
-  background-color: rgb(244, 199, 173);
+  //background-color: rgb(244, 199, 173);
   color: rgb(50, 50, 50);
   font-size: 14px;
   font-family: 'Poiret One', cursive;
+  background: url("bananas.png");
   //font-family: 'Marck Script', cursive;
   //font-family: 'La Belle Aurore', cursive;
 }
@@ -18,6 +19,7 @@ html {
   text-align: justify;
   margin-top: 10vh;
   background-color: rgb(244, 199, 173);
+  background: url("bananas.png");
 }
 
 .box {
@@ -34,6 +36,7 @@ html {
   flex-direction: column;
   font-family: 'Playfair Display', serif;
   position: relative;
+  background-color: rgb(244, 199, 173);
 }
 
 #turn-icon {
