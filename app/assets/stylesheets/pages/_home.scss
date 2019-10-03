@@ -33,12 +33,15 @@ html {
   justify-content: center;
   flex-direction: column;
   font-family: 'Playfair Display', serif;
+  position: relative;
+}
+
+#turn-icon {
+  position:absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .larger {
   font-size: 40px;
-}
-
-.btn > .green-background {
-  color: green;
 }
