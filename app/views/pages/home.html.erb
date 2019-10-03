@@ -2,97 +2,92 @@
 <div class="cont">
   <div class="box">
 
-    <div id="slideone" class="display-none">
-      <h1>Hello Koudetat team 👊</h1>
+    <div id="slideone">
+      <h1 class="mb-3">Hello Koudetat team 👊</h1>
       <p>Vous regardez donc effectivement les liens qu'on vous envoie...</p>
       <p> Vous n'avez vraiment rien à faire 🤪 </p>
-      <p>Je plaisante ! C'est cool que vous preniez le temps. Vraiment.</p>
-      <div style="width:100%;height:0;padding-bottom:25%"><iframe src="https://giphy.com/embed/d30yCBUXEvgosTjAvY"frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p>Je plaisante ! Cest top que vous preniez le temps. Vraiment.</p>
+      <img src="https://media.giphy.com/media/d30yCBUXEvgosTjAvY/giphy.gif" alt="" style="width:50%" class="mb-3">
       <p>Maintenant que vous êtes là, vous me laissez pitcher rapidement mon projet?</p>
 
-      <button class="btn btn-secondary"> LET'S GO </button>
+      <button class="btn btn-secondary" id="start-btn"> LET'S GO </button>
     </div>
 
     <div id="slidetwo" class="display-none">
-      <p>Je m'appelle Aloïs et j'ai plein de projets en tête. ah petit détail:  j'ai un bébé. Elle n'a pas encore un an, elle ne dit pas papa mais "chat" </p>
 
-    <p>J'ai deux questions pour vous:</p>
+      <p>Cool !</p>
+      <p>Alors, pour commencer, j'ai deux questions pour vous.</p>
 
-    <p>1. Avez-vous déjà cherché une place en crèche sans avoir un job salarié? </p>
+      <div class="mb-3" style="font-size: larger ;" ><b><u>Première question:</u></b></div>
 
-    <p>Voici les réponses que vous aurez: </p>
+      <p><em>Avez-vous déjà cherché une place en crèche sans avoir un job salarié?</em></p>
 
-    <img src="https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif" alt="">
+      <button id="yes-btn" class="btn btn-secondary mb-3 mr-3">Oui 👍</button><button class="btn btn-secondary mb-3" id="no-btn" >Non 👎</button>
 
-  </div>
+      <div> </div>
+      <p class="display-none" id="yes-ans">Dans ce cas, vous connaissez déjà la réponse des établissements: </p>
 
-  <div id="slidethree" class="display-none">
-  <p>2e question. Avez-vous déjà essayé de lancer une boite avec un bébé à la maison ?</p>
-    <p>Moi oui.</p>
-    <p>Elle n'a jamais vu le jour.</p>
-
-  <img src="https://media.giphy.com/media/l0ExgO5m0tcnfUKyY/giphy.gif" alt="">
-    <br>
-  <p>Et oui... Cela arrive même aux meilleurs.</p>
-
-  <button class="btn btn-secondary"> C'est vrai</button>
-  </div>
-
-  <div id="slidefour" class="display-none">
-
-  <p>Pour les entrepreneur.e.s, freelances, indépendant.e.s en général, il y a un vrai problème d'accessibilité aux modes de garde traditionnels.</p>
-
-  <p>Mais, même pas besoin d'aller dans la niche, des indépensans, un seul chiffre marché suffira:</p>
-
-  <p><em> La moitié des enfants des moins de trois ans n'a pas de place d'accueil en France.</em></p>
-
-  <p>Donc on fait comment?</p>
-
-  <img src="https://media.giphy.com/media/dXICCcws9oxxK/giphy.gif" alt="">
-
-  </div>
-
-  <div id="slidefive" >
-    <p>Vous voulez breaker le game de l'éducation ?
-    Moi je veux breaker le problème de la garde des enfants.
-    Et contribuer à l'empowerment des femmes.</p>
-
-    <p>Mon rêve, ma vision:
-    Des crèches ultra flexibles, digitales, sans conditions et accessibles.</p>
-
-    <p>Alors oui ça va être dûr. C'est réglementé. C'est sensible car on parle de bébés. Ca ne cadre surement pas avec toutes vos cases. Mais c'est une vraie question de société et je suis sûre que mon aventure peut se gamifier.
-    <p>Alors vous m'aidez?</p>
-
+      <p id="no-ans">Ne vous donnez pas cette peine. Voici la réponse qu'on vous donnera : </p>
+      <img src="https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif" alt="" style="width:50%" class="mb-3">
+      <br>
+      <button id="next" class="btn btn-outline-secondary btn-sm">⇢ NEXT ⇢</button>
 
     </div>
 
-    <div class="display-none">
-    <p>Alors oui on peut faire beaucoup de choses avec un bébé</p>
-    <p>Certains y arrivent vraiment bien</p>
+    <div id="slidethree" class="display-none">
+      <div class="mb-3" style="font-size: larger ;"><b><u>Deuxième question:</u></b></div>
+      <p><em>Avez-vous déjà essayé de lancer une boite avec un bébé à la maison ?</em></p>
+      <button id="yes-button" class="btn btn-secondary mb-3 mr-3">Oui 👍</button><button class="btn btn-secondary mb-3" id="no-button" >Non 👎</button>
+      <p id="no-answer" class="display-none">Moi oui. Elle n'a jamais vu le jour.</p>
+      <p id="yes-answer">Wow et alors? Parce que moi, j'ai bien essayé mais elle n'a jamais vu le jour.</p>
 
-    <p> Mais voilà dans la vraie vie 2/3 des enfants n'ont pas de places en crèche</p>
-    <p>Et les entrepreneurs et les freelances du fait de leur non salariat c'est encore plus difficile...</p>
+      <img src="https://media.giphy.com/media/l0ExgO5m0tcnfUKyY/giphy.gif" alt="" style="width:50%" class="mb-3">
+      <br>
+      <p >Et oui... Cela arrive même aux meilleurs.</p>
 
+      <button class="btn btn-outline-secondary mt-3"> ⇢ C'est vrai ⇢</button>
+    </div>
 
-    2e question. Avez-vous déjà cherché une place en crèche sans avoir un job salarié? Déjà qu'avec un job c'est trèèèès long, sans la réponse est sans appel. Vous ne pouvez même pas avoir accès à la plupart des micro-crèches.
+    <div id="slidefour" class="display-none">
 
-    Ma famille est à la Réunion. Celle de mon mec en Corse. On fait comment?
+      <p>Pour les entrepreneur.e.s, freelances, indépendant.e.s en général, il y a un vrai problème d'accessibilité aux modes de garde traditionnels.</p>
 
-      <img src="https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif" alt="">
+      <p>Et sans même aller dans la niche des non salariés, un seul chiffre "marché" suffit pour traduire le problème de garde d'enfants:</p>
+
+      <p><b> UNE FAMILLE SUR DEUX N'OBTIENT PAS DE PLACE EN CRECHE*</b></p>
+
+      <img src="https://media.giphy.com/media/ph6ewybUlGbW8/giphy.gif" alt="" style="width:40%" class="mb-3">
+
+      <p>Oui, je sais. Choquant.</p>
+
+      <button class="btn btn-secondary mt-3"> 🌈 Ma proposition 🌈 ⇢</button>
+    </div>
+
+    <div id="slidefive" class="display-none">
+      <p>Vous voulez breaker le game de l'éducation ?
+      Moi je veux casser le game de celui de la garde d'enfants.</p>
+
+      <p>Mon rêve, ma vision:
+      Des crèches</p>
+
+      <div> 🔆 <b>ultra flexibles 🔆</b></div>
+      <div> 📱 <b>digitales 📱</b></div>
+      <div> 🌈 <b>sans conditions d'activité 🌈</b></div>
+      <div> 🙏<b>accessibles 🙏</b></div>
+
+      <p>Alors oui, y'a du boulot. C'est très réglementé, c'est sensible car on parle de bébés. Ca ne rentre probablement pas dans votre cadre. Mais c'est une vraie question de société et je suis sûre que mon aventure peut se gamifier.
+      <p>Alors vous m'aidez?</p>
+
+      <button class="btn btn-secondary mt-3" id="help-me">✨✨ YES MAMA ✨✨</button>
+
     </div>
 
 
-
-</div>
-
-
-
+    <div id="slidesix" class="larger display-none" >
+       <div>⇥ <%= image_tag "card.png", alt:"", width: 400  %> ⇤</div>
     </div>
-
-</div>
-
-
 
 
   </div>
 </div>
+

@@ -15,7 +15,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: justify;
   margin-top: 10vh;
   background-color: rgb(244, 199, 173);
 }
@@ -32,4 +32,9 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Playfair Display', serif;
+}
+
+.larger {
+  font-size: 40px;
 }
